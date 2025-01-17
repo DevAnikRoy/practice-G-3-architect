@@ -1,0 +1,55 @@
+/* Font Family */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-fonts {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /* Shared style */
+
+.display-flex{
+    display: flex;
+}
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.header-bg{
+    background-color: #FFF4E7;
+}
+
+
+
+  /* Header style */
+
+
+
+
+  /* Nav relates style */
+
+  .nav-bar{
+    justify-content: space-between;
+  }
+  .nav-links{
+    gap: 50px;
+  }
+
+  .nav-item{
+    list-style: none;
+  }
+  .nav-link{
+    text-decoration: none;
+  }
+  .nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
